@@ -19,10 +19,10 @@ export default function Home() {
   }
   return (
    <div className={styles.page}>
-      <form>
+    <div className="form">
        <p>Please Login in</p>
        <button onClick={()=>signIn()}>Login</button>
-      </form>
+    </div>
     </div>
   );
 }
